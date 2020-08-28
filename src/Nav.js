@@ -19,12 +19,20 @@ export default class Nav extends Component {
               </a>
             </li>
             <li className="github">
-              <a href="https://github.com/camcorrado" target="_blank">
+              <a
+                href="https://github.com/camcorrado"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} className="faIcon" />
               </a>
             </li>
             <li className="linkedin">
-              <a href="https://www.linkedin.com/in/camcorrado/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/camcorrado/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faLinkedin} className="faIcon" />
               </a>
             </li>
@@ -32,6 +40,7 @@ export default class Nav extends Component {
               <a
                 href="https://camcorradoportfolio.s3.amazonaws.com/Resume.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faGraduationCap} className="faIcon" />
               </a>

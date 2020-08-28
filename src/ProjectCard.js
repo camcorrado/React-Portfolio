@@ -20,16 +20,16 @@ export default class ProjectCard extends Component {
           <p>{description}</p>
           <h4>{mediums}</h4>
           <div className="projectLinks">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               LIVE
             </a>
-            <a href={repoClient} target="_blank">
+            <a href={repoClient} target="_blank" rel="noopener noreferrer">
               CLIENT REPOSITORY
             </a>
             {repoServer === null ? (
               <></>
             ) : (
-              <a href={repoServer} target="_blank">
+              <a href={repoServer} target="_blank" rel="noopener noreferrer">
                 SERVER REPOSITORY
               </a>
             )}

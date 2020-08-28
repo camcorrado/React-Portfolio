@@ -13,23 +13,29 @@ export default class About extends Component {
         </section>
         <section className="bio">
           <p>
-            REWORK I bring a lot of relevant skills to the table from my
-            previous career as a senior video editor: project managment,
-            Recently graduating from Thinkful as a Full-Stack Web Developer, I
-            take pride &amp; find joy in problem-solving, seeing my ideas come
-            to life, &amp; creating a satisfying user experience. I love to
-            incorporate my New Media background into my work as a Full-Stack
-            Developer.
+            Hiya! I'm Cameron, a Full-Stack Developer with a background in New
+            Media. In addition to&nbsp;
+            <span>
+              React, JavaScript, PostgreSQL, jQuery, HTML5, CSS3,&nbsp;
+              <a
+                href="https://camcorradoportfolio.s3.amazonaws.com/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                etc.
+              </a>
+            </span>
+            , I bring a lot of relevant skills to the table from my previous
+            career as a Senior Video Editor - attention to detail, a knack for
+            problem solving, project &amp; time management, &amp; adaptive
+            learning in a field of ever...advancing...technology...
           </p>
           <br />
           <p>
-            When I'm not coding, I'm often found gardening on my rooftop with my
-            cat, gaming online with friends, or marching the streets of major
-            (&amp; minor) cities in a huuuuuuuge LGBTQ marching band! All of
-            which is like coding! Like a garden, one must upkeep code. Like
-            gaming with friends, coding is a problem solving social activity.
-            Like a marching band, coding can be a creative outlet. Like a cat,
-            coding can be lovably feisty!
+            When I'm not coding, I'm often found gardening with my cat Catkeisha
+            in our rooftop garden, kickin' butts in online PvP video games,
+            searching for vintage Halloween decor, or marching the streets of
+            major (&amp; minor) cities in a huuuuuuuge LGBTQ marching band!
           </p>
         </section>
       </section>
