@@ -1,13 +1,236 @@
-body {
+* {
+  box-sizing: border-box;
+  font-family: "Amiri-Regular", serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  min-width: 320px;
+}
+
+body {
+  background-color: black;
+  background-image: linear-gradient(#090029, #000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  overflow: scroll;
+}
+
+nav {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+}
+
+h1 {
+  color: #fff694;
+  font-family: "Cinzel Decorative", serif;
+  font-size: clamp(18px, 3vw, 28px);
+  font-weight: 200;
+  text-align: center;
+}
+
+.firstname {
+  margin-right: 5px;
+}
+
+h1:first-letter {
+  font-size: clamp(22px, 6vw, 42px);
+}
+
+.buttons {
+  display: flex;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navLinks > li {
+  display: flex;
+  list-style: none;
+  margin: 0px 5px;
+}
+
+a {
+  display: flex;
+  margin: auto;
+  color: white;
+}
+
+.faIcon {
+  font-size: 25px;
+}
+
+nav,
+.hero,
+.projectGallery,
+.imageGallery {
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0),
+      #00cfff,
+      rgba(255, 0, 0, 0)
+    )
+    0 0 1 0;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.headShotContainer {
+  padding: 0px;
+  min-width: 50%;
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeadShot {
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 100%;
+  max-width: 200px;
+}
+
+.bio {
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 100%;
+  padding: 20px 20px 0px 20px;
+}
+
+.bio > p {
+  text-indent: 20px;
+}
+
+p {
+  font-size: clamp(16px, 3.5vw, 18px);
+  color: white;
+}
+
+.projectGallery,
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.projectsContainer,
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+
+.project,
+.image {
+  list-style: none;
+  margin: 10px;
+}
+
+.projectCard,
+.imageCard {
+  position: relative;
+}
+
+.projectImage,
+.imageActual {
+  max-width: 400px;
+}
+
+.projectDetails,
+.imageDetails {
+  opacity: 0;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+}
+
+.projectDetails:hover,
+.imageDetails:hover {
+  opacity: 1;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.projectLinks > a {
+  margin: 0px;
+  padding: 5px;
+}
+
+.imagesContainer {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-height: 300px;
+}
+
+.imageCard {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imageActual {
+  text-align: center;
+}
+
+.imageDetails {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .headShotContainer {
+    margin: auto 0px;
+    margin-left: 20px;
+    padding: 20px;
+    min-width: 300px;
+  }
+
+  .mainHeadShot {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+  }
+
+  .bio {
+    max-width: 800px;
+  }
 }
