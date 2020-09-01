@@ -17,4 +17,4 @@ Upon graduating from Thinkful, I decided to update my portfolio. I wanted to rec
 
 ## Live URL
 
-https://together-lgbtq.now.sh
+https://cameron-corrado-portfolio.vercel.app/

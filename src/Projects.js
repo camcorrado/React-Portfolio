@@ -5,7 +5,7 @@ const projects = [
     alt: "Portfolio Screenshot",
     description: `Pretty meta, right? This portfolio is a project, though!`,
     mediums: "React, CSS",
-    link: "https://camcorrado.github.io/Portfolio/",
+    link: "https://cameron-corrado-portfolio.vercel.app/",
     repoClient: "https://github.com/camcorrado/Portfolio",
     repoServer: null,
   },
