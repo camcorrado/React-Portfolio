@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Portfolio",
-    image: "https://i.imgur.com/I3oyQzT.png",
+    image: "https://i.imgur.com/UPrD9MZ.png",
     alt: "Portfolio Screenshot",
     description: `Pretty meta, right? This portfolio is a project, though!`,
     mediums: "React, CSS",

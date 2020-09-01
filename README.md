@@ -8,7 +8,7 @@ Upon graduating from Thinkful, I decided to update my portfolio. I wanted to rec
 
 ## Screenshots
 
-![Landing Page](https://i.imgur.com/I3oyQzT.png)
+![Landing Page](https://i.imgur.com/UPrD9MZ.png)
 
 ## Built With
 
