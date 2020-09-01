@@ -25,7 +25,7 @@ const projects = [
     alt: "Suggest Screenshot",
     description: `Suggest allows users to submit suggestions to reach a common goal. Users can edit and delete their suggestions while upvoting other users' suggestions. Admin users can approve submitted suggestions.`,
     mediums: "React, CSS, Node, Express, PostgreSQL",
-    link: "https://suggest-app.camcorrado.now.sh/",
+    link: "https://suggest-app-hzt2hikhz.vercel.app/",
     repoClient: "https://github.com/camcorrado/Suggest",
     repoServer: "https://github.com/camcorrado/Suggest-Server",
   },

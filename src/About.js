@@ -13,8 +13,8 @@ export default class About extends Component {
         </section>
         <section className="bio">
           <p>
-            Hiya! I'm Cameron, a Full-Stack Developer with a background in New
-            Media. In addition to&nbsp;
+            Hiya! I'm Cameron, a <span>Full-Stack Developer</span> with a
+            background in New Media. In addition to&nbsp;
             <span>
               React, JavaScript, PostgreSQL, jQuery, HTML5, CSS3,&nbsp;
               <a
