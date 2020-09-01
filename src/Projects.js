@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: "Portfolio",
+    image: "https://i.imgur.com/I3oyQzT.png",
+    alt: "Portfolio Screenshot",
+    description: `Pretty meta, right? This portfolio is a project, though!`,
+    mediums: "React, CSS",
+    link: "https://camcorrado.github.io/Portfolio/",
+    repoClient: "https://github.com/camcorrado/Portfolio",
+    repoServer: null,
+  },
+  {
     name: "Together",
     image: "https://i.imgur.com/jgC16Bm.png",
     alt: "Together Screenshot",
