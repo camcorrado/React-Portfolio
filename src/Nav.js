@@ -38,7 +38,7 @@ export default class Nav extends Component {
             </li>
             <li>
               <a
-                href="https://camcorradoportfolio.s3.amazonaws.com/Resume.pdf"
+                href="https://camcorradoportfolio.s3.amazonaws.com/Cameron+Corrado's+Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

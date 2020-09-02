@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url(https://fonts.gstatic.com/s/cinzeldecorative/v8/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url(https://fonts.gstatic.com/s/amiri/v14/J7aRnpd8CGxBHpUutLMS7JNK.woff2)
+    format("woff2");
+}
+
 * {
   box-sizing: border-box;
   font-family: "Amiri-Regular", serif;
@@ -30,12 +42,17 @@ nav {
   display: flex;
 }
 
-h1 {
+h1,
+h1 > span {
   color: #fff694;
   font-family: "Cinzel Decorative", serif;
   font-size: clamp(18px, 3vw, 28px);
   font-weight: 200;
   text-align: center;
+}
+
+h1 > span {
+  font-size: clamp(22px, 6vw, 42px);
 }
 
 h1:first-letter {
@@ -112,6 +129,7 @@ nav,
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .mainHeadShot {
@@ -161,6 +179,11 @@ span > a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto;
+  max-width: 100%;
+}
+
+.imagesContainer {
+  margin: auto 20px;
 }
 
 .project,
@@ -261,10 +284,5 @@ footer {
 
   .bio {
     max-width: 800px;
-  }
-
-  .projectsContainer,
-  .imagesContainer {
-    max-width: 80%;
   }
 }

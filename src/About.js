@@ -18,7 +18,7 @@ export default class About extends Component {
             <span>
               React, JavaScript, PostgreSQL, jQuery, HTML5, CSS3,&nbsp;
               <a
-                href="https://camcorradoportfolio.s3.amazonaws.com/Resume.pdf"
+                href="https://camcorradoportfolio.s3.amazonaws.com/Cameron+Corrado's+Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

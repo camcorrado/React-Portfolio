@@ -27,7 +27,9 @@ export default class ImageGallery extends Component {
   render() {
     return (
       <section className="imageGallery">
-        <h1>Get to Know Me</h1>
+        <h1>
+          Get to <span>K</span>now <span>M</span>e
+        </h1>
         <section className="imagesContainer">
           {this.state.images
             .map((image) => (
