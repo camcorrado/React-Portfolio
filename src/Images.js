@@ -177,7 +177,7 @@ const images = [
   },
 
   {
-    image: "https://i.imgur.com/pGm6aGo.jpg",
+    image: "https://i.imgur.com/ZBXc6mT.png",
     alt: "Cam & Catkeisha with a Lavender Echinacea bouquet",
     description: "Floral Harvest",
   },

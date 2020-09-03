@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
-import About from "./About";
+import Hero from "./Hero";
 import ProjectGallery from "./ProjectGallery";
 import ImageGallery from "./ImageGallery";
 import Footer from "./Footer";
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <main className="App">
         <Nav />
-        <About />
+        <Hero />
         <ProjectGallery />
         <ImageGallery />
         <Footer />

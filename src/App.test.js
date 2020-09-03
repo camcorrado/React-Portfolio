@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import Nav from "./Nav";
-import About from "./About";
+import Hero from "./Hero";
 import ProjectGallery from "./ProjectGallery";
 import ProjectCard from "./ProjectCard";
 import Projects from "./Projects";
@@ -28,10 +28,10 @@ describe("Portfolio App Components", () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it("renders the About without crashing", () => {
+  it("renders the Hero without crashing", () => {
     const div = document.createElement("div");
 
-    ReactDOM.render(<About />, div);
+    ReactDOM.render(<Hero />, div);
 
     ReactDOM.unmountComponentAtNode(div);
   });
