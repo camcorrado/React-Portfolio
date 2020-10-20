@@ -8,7 +8,7 @@ export default class Nav extends Component {
     return (
       <nav>
         <section className="name">
-          <h1 className="firstname">Cameron</h1>
+          <h1 className="firstName">Cameron</h1>
           <h1>Corrado</h1>
         </section>
         <section className="buttons">
