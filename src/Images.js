@@ -207,11 +207,50 @@ const images = [
     alt: "Cam teaching friends a new card game",
     description: "Teaching friends a new game",
   },
-
   {
     image: "https://i.imgur.com/7H65dwI.png",
     alt: "Cam in the pool with family",
     description: "Everyone enjoys the pool differently, I guess",
+  },
+  {
+    image: "https://i.imgur.com/5Vz4wHe.png",
+    alt: "Cam and friends at an orchard in Minnesota",
+    description: "Minnesota Apple Orchard",
+  },
+  {
+    image: "https://i.imgur.com/It8P9PW.png",
+    alt: "Cam and family at Coney Island",
+    description: "Family day trip to Coney Island",
+  },
+  {
+    image: "https://i.imgur.com/UO0sTN8.png",
+    alt: "Cam and friends at the Fire Island Pines",
+    description: "Late Summer at Fire Island Pines",
+  },
+  {
+    image: "https://i.imgur.com/hsdw4wQ.png",
+    alt: "Cam and his roommates posing",
+    description: "Roommates AND best friends",
+  },
+  {
+    image: "https://i.imgur.com/8oZr4HF.png",
+    alt: "Praying Mantis in the garden",
+    description: "A 'little' visitor in my garden",
+  },
+  {
+    image: "https://i.imgur.com/3utfcde.png",
+    alt: "Cam canoeing",
+    description: "Canoeing at Turkey Swamp Park",
+  },
+  {
+    image: "https://i.imgur.com/EmWqORV.png",
+    alt: "A Polaroid of Cam and friends",
+    description: "Camping at Turkey Swamp Park",
+  },
+  {
+    image: "https://i.imgur.com/XnZopln.png",
+    alt: "A Polaroid of Cam and friends",
+    description: "A week at Fire Island Pines",
   },
 ];
 
