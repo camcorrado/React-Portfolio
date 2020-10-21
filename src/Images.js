@@ -218,7 +218,7 @@ const images = [
     description: "Minnesota Apple Orchard",
   },
   {
-    image: "https://i.imgur.com/It8P9PW.png",
+    image: "https://i.imgur.com/hU2rO3e.png",
     alt: "Cam and family at Coney Island",
     description: "Family day trip to Coney Island",
   },
