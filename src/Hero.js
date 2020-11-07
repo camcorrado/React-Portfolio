@@ -8,7 +8,7 @@ export default class Hero extends Component {
           <img
             alt="Cam Corrado Headshot"
             className="mainHeadShot"
-            src="https://i.imgur.com/vOcR1au.jpg"
+            src="https://i.imgur.com/IfBKMtP.jpg"
           />
         </section>
         <section className="greeting">
