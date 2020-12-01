@@ -20,6 +20,16 @@ const projects = [
     repoServer: "https://github.com/camcorrado/Together-API",
   },
   {
+    name: "Gardener",
+    image: "https://imgur.com/2zFWJiu.png",
+    alt: "Gardener Screenshot",
+    description: `Gather all of your garden's information in one place: watering frequency, fertilizer frequency, mature height, & more! Users can also see how current & prospective plants will fair within their hardiness zone.`,
+    mediums: "React, CSS, Node, Express, PostgreSQL, Adobe Photoshop",
+    link: "https://gardener-cc.vercel.app/",
+    repoClient: "https://github.com/camcorrado/Gardener",
+    repoServer: "https://github.com/camcorrado/Gardener-Server",
+  },
+  {
     name: "Suggest",
     image: "https://i.imgur.com/oEa4mR2.png",
     alt: "Suggest Screenshot",
@@ -28,16 +38,6 @@ const projects = [
     link: "https://suggest-app-hzt2hikhz.vercel.app/",
     repoClient: "https://github.com/camcorrado/Suggest",
     repoServer: "https://github.com/camcorrado/Suggest-Server",
-  },
-  {
-    name: "Gardener",
-    image: "https://i.imgur.com/InT1PWV.png",
-    alt: "Gardener Screenshot",
-    description: `Gather all of your garden's information in one place: watering frequency, fertilizer frequency, mature height, & more! Users can also see how current & prospective plants will fair within their hardiness zone.`,
-    mediums: "HTML, CSS, jQuery, Adobe Photoshop",
-    link: "https://camcorrado.github.io/Gardener/",
-    repoClient: "https://github.com/camcorrado/Gardener",
-    repoServer: null,
   },
   {
     name: "Dead By Daylight Quiz",
